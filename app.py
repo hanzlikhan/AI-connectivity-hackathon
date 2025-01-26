@@ -1,11 +1,11 @@
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load environment variables from .env file
-load_dotenv()
+# load_dotenv()
 
 # System prompt to simulate personal finance assistant (replaced with manual advice)
 system_prompt = "You are a personal finance assistant. Provide actionable advice based on the user's spending behavior and budget."
