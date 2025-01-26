@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 # Load environment variables from .env file
 # load_dotenv()
 
+hf_token = st.secrets["HF_TOKEN"]
+
 # System prompt to simulate personal finance assistant (replaced with manual advice)
 system_prompt = "You are a personal finance assistant. Provide actionable advice based on the user's spending behavior and budget."
 
